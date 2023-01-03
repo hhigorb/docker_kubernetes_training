@@ -1,3 +1,3 @@
-# Anotações sobre testes unitários
+# Anotações sobre Docker
 
-Algumas explicações do que são testes unitários e como utiliza-los
+Algumas explicações do que é o Docker e como utiliza-lo
