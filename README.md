@@ -1,3 +1,3 @@
 # Anotações sobre Docker
 
-Algumas explicações do que é o Docker e como utiliza-lo
+Anotações sobre o que é o Docker e como utiliza-lo
