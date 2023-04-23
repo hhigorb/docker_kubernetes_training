@@ -16,3 +16,13 @@ No caso da máquina virtual, para isolar sistemas seria necessário criar vária
 
 No caso do Docker Engine, estamos utilizando uma única infraestrutura (seu computador, uma máquina na nuvem, etc) com um sistema operacional. Dentro desse único sistema operacional, há os containers com suas aplicações.
 
+---
+
+## YAML
+
+![Introdução YAML](images/image4.png 'Introdução YAML')
+
+---
+
+![Introdução YAML](images/image5.png 'Introdução YAML')
+

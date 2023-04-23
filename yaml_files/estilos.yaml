@@ -1,0 +1,19 @@
+# Há 2 tipos de estilo. Block e Flow
+
+# Exemplo de estilo block
+
+host: iggy
+datacenter: 
+  location: São Paulo 
+  router: 42
+roles:
+  - web
+  - dns
+
+# Exemplo de estilo Flow
+
+host2: iggy
+datacenter2: { location: São Paulo,
+               router: 42}
+roles2: [ web, dns ]
+
