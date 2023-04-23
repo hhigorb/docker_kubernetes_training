@@ -1,0 +1,6 @@
+# Mapeamento é basicamente o conjunto chave-valor
+
+host: iggy
+datacenter: 
+  location: São Paulo 
+  router: 42 

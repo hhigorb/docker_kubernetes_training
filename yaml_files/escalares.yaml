@@ -1,0 +1,24 @@
+# Escalares são valores únicos (as chaves e os valores em si)
+
+host: iggy
+datacenter: 
+  location: São Paulo 
+  router: 42
+  switch: 34
+roles:
+  - webserver
+  - database
+
+# Valor escalar de múltiplas linhas - aqui ficará um em cada linha
+funcionamento: |
+  segunda - das 08:00 às 14h00
+  terça - das 08:00 às 15h00
+  quarta - das 08:00 às 16h00
+  quinta - das 08:00 às 17h00
+  sexta - das 08:00 às 18h00
+
+# Já aqui ficará tudo na mesma linha
+comentarios: >
+  Temos alto uso de CPU
+  Desde 04/10/2022
+  Estamos investigando

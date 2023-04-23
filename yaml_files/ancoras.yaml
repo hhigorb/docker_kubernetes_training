@@ -1,0 +1,15 @@
+# Âncoras são usadas para armazenar e reutilizar dados
+
+host: iggy
+datacenter: 
+  location: &SP São Paulo 
+  router:  42 
+  switch: 42
+
+---
+
+host: iggy
+datacenter: 
+  location: *SP 
+  router: 42 
+  switch: 42

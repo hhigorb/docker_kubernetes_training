@@ -1,0 +1,6 @@
+# Comentários são com hashtag e um espaço
+
+host: iggy
+datacenter: 
+  location: São Paulo # Capital do estado
+  router: 42 

@@ -1,0 +1,15 @@
+# É possível adicionar várias configurações em um único arquivo. Só separar por ---
+# Há 2 hosts nesse arquivo, o que não pode, pois são chaves iguais, mas estã separado
+# por ---, tornando-os configurações diferentes
+
+host: iggy
+datacenter: 
+  location: São Paulo 
+  router: 42 
+  switch: 34
+---
+host: iggy2
+datacenter: 
+  location: São Paulo 
+  router: 42 
+  switch: 34

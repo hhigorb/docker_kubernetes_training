@@ -1,8 +1,10 @@
 host: iggy
+
 # datacenter possui 2 pares de chave-valor
 datacenter: 
   location: São Paulo 
   router: 42
+  
 # roles é uma lista
 roles:
   - web

@@ -1,0 +1,8 @@
+# Sequências são listas de valores
+
+roles: 
+  - webserver
+  - database 
+
+roles2: [ webserver, database ]
+
