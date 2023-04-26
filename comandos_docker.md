@@ -24,6 +24,23 @@
 
 `docker image rm id_da_imagem` - Deleta uma imagem pelo seu ID
 
+`docker image tag imagem:versao novo_nome_da_imagem` - Cria uma imagem com o nome (tag) escolhido
+
+`docker image inspect id_da_imagem` - Inspeciona a imagem
+
+`docker image rm -f id_da_imagem` - Força a deleção da imagem, mesmo que o container esteja em execução
+
+`docker run ubuntu echo 'Hello World'` - Rodando um container com imagem ubuntu e escrevendo 'Hello World' na tela
+
+`docker stop id_da_imagem` - Para execução de uma imagem
+
+`docker run -d -p 8080:80 nginx:1.19.4-alpine`
+
+"-d": Opção para rodar o contêiner em background, ou seja, sem que ele bloqueie o terminal do usuário que executou o comando.
+
+"-p 8080:80": Opção para mapear a porta 8080 do host (a máquina física onde o Docker está instalado) para a porta 80 do contêiner, permitindo que o servidor web dentro do contêiner seja acessado pelo navegador web a partir do host.
+
+
 
 
 
