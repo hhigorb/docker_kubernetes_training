@@ -44,7 +44,7 @@
 
 "-p 8080:80": Opção para mapear a porta 8080 do host (a máquina física onde o Docker está instalado) para a porta 80 do contêiner, permitindo que o servidor web dentro do contêiner seja acessado pelo navegador web a partir do host.
 
-`docker run --name "servidor_web" -d -p 8080:80 -e NGINX_ENTRYPOINT_QUIET_LOGS=1 -v "/home/iggy/Área de Trabalho/Projects/anotacoes_docker/files_example:/usr/share/nginx/html" nginx:1.19.4` -  Criado um container nginx com nome de servidor_web. O argumento -v "pasta_do_host:pasta no container" criou um volume dentro desse container, ou seja, há uma pasta dentro do container que está persistindo os dados alocados no host.
+`docker run --name "servidor_web" -d -p 8080:80 -e NGINX_ENTRYPOINT_QUIET_LOGS=1 -v "/home/iggy/Área de Trabalho/Projects/anotacoes_docker/docker/files_example:/usr/share/nginx/html" nginx:1.19.4` -  Criado um container nginx com nome de servidor_web. O argumento -v "pasta_do_host:pasta no container" criou um volume dentro desse container, ou seja, há uma pasta dentro do container que está persistindo os dados alocados no host.
 
 ![Volumes](images/image19.png 'Volumes')
 
