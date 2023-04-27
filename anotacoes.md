@@ -66,3 +66,22 @@ No caso do Docker Engine, estamos utilizando uma única infraestrutura (seu comp
 
 ![Sistema de Arquivos em Camadas](images/image14.png 'Sistema de Arquivos em Camadas')
 
+## Persistência de Dados
+
+![Persistência de Dados](images/image15.png 'Sistema de Arquivos em Camadas')
+
+Através de volumes, é possível ter a opção de persistência de dados nos containers.
+
+## Volumes
+
+![Volumes](images/image16.png 'Volumes')
+
+---
+
+![Volumes](images/image17.png 'Volumes')
+
+---
+
+![Volumes](images/image18.png 'Volumes')
+
+
