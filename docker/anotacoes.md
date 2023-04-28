@@ -84,4 +84,14 @@ Através de volumes, é possível ter a opção de persistência de dados nos co
 
 ![Volumes](images/image18.png 'Volumes')
 
+## Dockerfile
 
+![Dockerfile](images/image20.png 'Dockerfile')
+
+---
+
+![Dockerfile](images/image21.png 'Dockerfile')
+
+---
+
+![Dockerfile](images/image22.png 'Dockerfile')
