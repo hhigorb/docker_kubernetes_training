@@ -4,8 +4,7 @@
 
 ---
 
-
-![Docker CheatSheet](images/docker_cheatsheet2.png "Docker CheatSheet")
+![Docker CheatSheet](images/docker_cheatsheet2.jpeg "Docker CheatSheet")
 
 `docker --version` - Verifica a versão do Docker na máquina
 
