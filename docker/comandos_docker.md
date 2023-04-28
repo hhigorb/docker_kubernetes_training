@@ -2,6 +2,11 @@
 
 ![Docker CheatSheet](images/docker_cheatsheet.png "Docker CheatSheet")
 
+---
+
+
+![Docker CheatSheet](images/docker_cheatsheet2.png "Docker CheatSheet")
+
 `docker --version` - Verifica a versão do Docker na máquina
 
 `docker --help` - Lista de comandos Docker
