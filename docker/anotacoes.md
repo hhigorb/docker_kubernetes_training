@@ -95,3 +95,23 @@ Através de volumes, é possível ter a opção de persistência de dados nos co
 ---
 
 ![Dockerfile](images/image22.png 'Dockerfile')
+
+## Comunicação e Redes no Docker
+
+![Comunicação e Redes](images/image23.png 'Comunicação e Redes')
+
+---
+
+![Comunicação e Redes](images/image24.png 'Comunicação e Redes')
+
+---
+
+![Comunicação e Redes](images/image25.png 'Comunicação e Redes')
+
+---
+
+![Comunicação e Redes](images/image26.png 'Comunicação e Redes')
+
+---
+
+![Comunicação e Redes](images/image27.png 'Comunicação e Redes')

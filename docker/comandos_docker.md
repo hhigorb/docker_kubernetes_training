@@ -66,6 +66,15 @@
 
 `docker image push nome_imagem:versao` - Envia a imagem para o Docker Hub (após autenticar)
 
+`docker network ls` - Lista as redes presentes no Docker
+
+`docker network inspect id_da_rede` - Inspeciona a rede selecionada
+
+`docker network create --driver bridge nome_network` - Cria uma network do tipo bridge
+
+`docker network disconnect bridge nome_container` - Faz a ponte de conexão entre containers
+
+`docker network disconnect bridge nome_container` - Desconecta a conexão entre containers
 
 
 
