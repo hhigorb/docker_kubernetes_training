@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'fusion.geek',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'fusion_app',
+        'USER': 'fusion_user',
+        'PASSWORD': 'fusion_pass',
+        'HOST': '172.17.0.2',
+        'PORT': '5432',
     }
 }
 

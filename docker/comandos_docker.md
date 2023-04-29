@@ -62,6 +62,8 @@
 
 `docker build -f webserver.dockerfile -t hhigorb/webserver:v1 .` - Build (constrói) a imagem do Docker
 
+`docker build -f webserver.dockerfile -t hhigorb/webserver:v1 . --no-cache` - Build (constrói) a imagem do Docker do zero, desconsiderando os caches das anteriores
+
 `docker login --username nome_usuario` - Faz login no Docker Hub
 
 `docker image push nome_imagem:versao` - Envia a imagem para o Docker Hub (após autenticar)
@@ -75,6 +77,8 @@
 `docker network disconnect bridge nome_container` - Faz a ponte de conexão entre containers
 
 `docker network disconnect bridge nome_container` - Desconecta a conexão entre containers
+
+`docker exec -it nome_container ifconfig` - Mostra as informações de IP do container
 
 
 
