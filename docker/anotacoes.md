@@ -115,3 +115,19 @@ Através de volumes, é possível ter a opção de persistência de dados nos co
 ---
 
 ![Comunicação e Redes](images/image27.png 'Comunicação e Redes')
+
+## Docker Compose
+
+![Docker Compose](images/image28.png 'Docker Compose')
+
+---
+
+![Docker Compose](images/image29.png 'Docker Compose')
+
+---
+
+![Docker Compose](images/image30.png 'Docker Compose')
+
+---
+
+![Docker Compose](images/image31.png 'Docker Compose')
