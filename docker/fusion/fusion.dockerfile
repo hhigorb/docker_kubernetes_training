@@ -1,5 +1,5 @@
 FROM python:3.9.0-alpine
-LABEL maintainer "Geek University <contato@geekuniversity.com.br>"
+LABEL maintainer "iggy>"
 COPY . /var/www
 WORKDIR /var/www
 RUN apk update && apk add zlib-dev jpeg-dev gcc musl-dev python3-dev postgresql-dev && pip install -r requirements.txt && python manage.py migrate

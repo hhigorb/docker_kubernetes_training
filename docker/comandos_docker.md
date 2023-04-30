@@ -80,6 +80,12 @@
 
 `docker exec -it nome_container ifconfig` - Mostra as informações de IP do container
 
+`docker-compose build` - Cria as imagens baseado na configuração do docker-compose.yaml (Necessário estar no diretório do docker-compose.yaml)
+
+`docker-compose up -d` - Cria os containers baseado nas imagens criadas (Necessário estar no diretório do docker-compose.yaml). O parâmetro -d é para não mostrar os logs do container logo após inicia-los
+
+`docker-compose down` - Para os containers criados via docker-compose
+
 
 
 
