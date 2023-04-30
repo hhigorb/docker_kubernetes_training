@@ -131,3 +131,7 @@ Através de volumes, é possível ter a opção de persistência de dados nos co
 ---
 
 ![Docker Compose](images/image31.png 'Docker Compose')
+
+## Extra - O que é Escalabilidade
+
+![Escalabilidade](images/image32.png 'Escalabilidade')
