@@ -80,11 +80,25 @@
 
 `docker exec -it nome_container ifconfig` - Mostra as informações de IP do container
 
-`docker-compose build` - Cria as imagens baseado na configuração do docker-compose.yaml (Necessário estar no diretório do docker-compose.yaml)
-
 `docker-compose up -d` - Cria os containers baseado nas imagens criadas (Necessário estar no diretório do docker-compose.yaml). O parâmetro -d é para não mostrar os logs do container logo após inicia-los
 
-`docker-compose down` - Para os containers criados via docker-compose
+`docker-compose up` - Cria e inicia todos os serviços definidos no arquivo docker-compose.yml.
+
+`docker-compose down` - Para e remove todos os containers, redes e volumes criados pelo comando up.
+
+`docker-compose build` - Constrói as imagens definidas nos serviços do arquivo docker-compose.yml.
+
+`docker-compose start` - Inicia os containers dos serviços definidos no arquivo docker-compose.yml.
+
+`docker-compose stop` - Para os containers dos serviços definidos no arquivo docker-compose.yml.
+
+`docker-compose restart` - Para e inicia novamente os containers dos serviços definidos no arquivo docker-compose.yml.
+
+`docker-compose ps` - Lista os containers dos serviços definidos no arquivo docker-compose.yml.
+
+`docker-compose logs` - Mostra os logs dos containers dos serviços definidos no arquivo docker-compose.yml.
+
+`docker-compose exec` - Executa um comando dentro de um container de um serviço específico.
 
 
 
