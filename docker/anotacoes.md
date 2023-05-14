@@ -135,3 +135,9 @@ Através de volumes, é possível ter a opção de persistência de dados nos co
 ## Extra - O que é Escalabilidade
 
 ![Escalabilidade](images/image32.png 'Escalabilidade')
+
+Um serviço escalável é um serviço de software que pode aumentar ou diminuir a capacidade de processamento ou recursos para atender a demanda em constante mudança. Em outras palavras, um serviço escalável é capaz de lidar com um aumento ou diminuição na carga de trabalho sem degradar o desempenho ou a disponibilidade.
+
+Por exemplo, imagine um serviço de hospedagem de sites que precisa lidar com um aumento repentino no tráfego de visitantes. Se o serviço não for escalável, ele pode ficar sobrecarregado e ficar indisponível para os visitantes. Mas se o serviço for escalável, ele poderá adicionar mais recursos, como servidores ou instâncias de processamento, para atender ao aumento da demanda e manter o site funcionando sem problemas.
+
+Os serviços escaláveis geralmente são projetados para serem distribuídos e podem ser executados em vários servidores ou instâncias. Eles também podem ser configurados para aumentar automaticamente a capacidade de processamento quando necessário e diminuir quando a demanda diminuir, permitindo que os recursos sejam utilizados de forma mais eficiente e economizando custos para o provedor de serviços.
