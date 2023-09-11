@@ -19,3 +19,15 @@ O YAML é utilizado principalmente para criar arquivos de configuração legíve
 No contexto de serviços como Docker e Kubernetes, você pode criar arquivos de configuração YAML para definir como os containers devem ser configurados, como os serviços devem ser implantados e como os recursos devem ser alocados.
 
 Em resumo, o YAML é uma linguagem de serialização de dados que é amplamente utilizada para criar arquivos de configuração legíveis por humanos em diversos cenários, incluindo a configuração de serviços de software e a troca de informações estruturadas entre sistemas.
+
+# Retomando ao Kubernetes
+
+![O que é o Kubernetes](images/image1.png 'O que é o Kubernetes')
+
+---
+
+![O que é o Kubernetes](images/image2.png 'O que é o Kubernetes')
+
+---
+
+![O que é o Kubernetes](images/image3.png 'O que é o Kubernetes')
