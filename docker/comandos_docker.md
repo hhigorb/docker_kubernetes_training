@@ -58,6 +58,8 @@
 
 `docker exec -it servidor_web sh` - Executa o container servidor_web com um terminal sh
 
+`docker exec -it nome_container bash` - Executa um container especifíco em um terminal bash
+
 `docker inspect id_container` - Inspeciona as informações do container
 
 `docker build -f webserver.dockerfile -t hhigorb/webserver:v1 .` - Build (constrói) a imagem do Docker
