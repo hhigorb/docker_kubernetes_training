@@ -68,6 +68,8 @@
 
 `docker login --username nome_usuario` - Faz login no Docker Hub
 
+`docker logs id_container` - Mostra os logs do container
+
 `docker image push nome_imagem:versao` - Envia a imagem para o Docker Hub (após autenticar)
 
 `docker network ls` - Lista as redes presentes no Docker
