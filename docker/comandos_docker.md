@@ -88,7 +88,7 @@
 
 `docker-compose -f arquivo_docker_compose.yml up -d` - ROda um arquivo docker-compose em específico. 
 
-`docker-compose up` - Cria e inicia todos os serviços definidos no arquivo docker-compose.yml
+`docker-compose up` - Cria e inicia todos os serviços definidos no arquivo docker-compose.yaml
 
 `docker-compose down` - Para e remove todos os containers, redes e volumes criados pelo comando up
 
