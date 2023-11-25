@@ -86,6 +86,8 @@
 
 `docker-compose up -d` - Cria os containers baseado nas imagens criadas (Necessário estar no diretório do docker-compose.yaml). O parâmetro -d é para não mostrar os logs do container logo após inicia-los
 
+`docker-compose -f arquivo_docker_compose.yml up -d` - ROda um arquivo docker-compose em específico. 
+
 `docker-compose up` - Cria e inicia todos os serviços definidos no arquivo docker-compose.yml
 
 `docker-compose down` - Para e remove todos os containers, redes e volumes criados pelo comando up
