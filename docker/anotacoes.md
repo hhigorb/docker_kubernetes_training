@@ -4,6 +4,18 @@
 
 ![O que são containers](images/image1.png 'O que são containers')
 
+Os containers Docker e a maioria dos sistemas de contêineres são baseados em Linux. Isso ocorre porque os containers dependem de recursos de isolamento e gerenciamento de recursos fornecidos pelo kernel do sistema operacional.
+
+Os containers Docker são baseados em Linux por algumas razões principais:
+
+1. Kernel de Linux: Os containers dependem de recursos fornecidos pelo kernel do sistema operacional para isolar processos e recursos. O kernel do Linux tem suporte nativo para recursos de isolamento, como namespaces e cgroups, que são fundamentais para a funcionalidade dos containers.
+
+2. Eficiência e Desempenho: O kernel do Linux é altamente eficiente e escalável, o que permite a execução de um grande número de containers em um único host sem comprometer o desempenho. Isso é fundamental para a filosofia de escalabilidade e agilidade do Docker.
+
+3. Ecossistema de Software: A maioria das imagens de contêiner disponíveis no Docker Hub e outras plataformas são baseadas em distribuições Linux, como Ubuntu, Debian e Alpine. Essas distribuições oferecem uma ampla gama de pacotes de software prontos para uso, facilitando a criação e implantação de aplicativos em containers.
+   
+4. Custo e Licenciamento: O Linux é de código aberto e geralmente não requer licenciamento para uso, o que torna mais econômico e flexível para implantação em ambientes de contêiner.
+
 ---
 
 ![O que é o Docker](images/image2.png 'O que é o Docker')
